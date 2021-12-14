@@ -36,6 +36,7 @@ body{
     margin: 2em auto;
     background-color: var(--conetudo);
     border-radius: 5px;
+    border-bottom: 10px solid var(--cor2);
 }
 
 .cabecalho{
@@ -49,12 +50,6 @@ body{
 
 .conteudo{
     margin: 10px;
-    border-radius: 0px 0px 5px 5px;
-}
-
-.detalhe{
-    height: 10px;
-    background-color: var(--cor2);
     border-radius: 0px 0px 5px 5px;
 }
 

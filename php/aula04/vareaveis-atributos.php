@@ -21,16 +21,14 @@
         </div>
         <div class="conteudo">
             <?php
-                $n = 4;
+                $idade = 18;
                 $nome = "Rikelmy";
-                echo $nome;
+                echo "$nome têm $idade anos!";
             ?>
-        </div>
-        <div class="detalhe">
         </div>
     </div>
     <footer class="rodape">
-        Siga-em no <a href="https://github.com/Rick222555000">GitHub</a> | Rikelmy Magno de Oliveira.
+        Siga-em no <a href="https://github.com/Rick222555000" target="_blank">GitHub</a> | Rikelmy Magno de Oliveira.
     </footer>
 </body>
 </html>
