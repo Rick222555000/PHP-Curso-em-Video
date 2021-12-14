@@ -1,6 +1,6 @@
 <?php
-    $idade = 18;
-    $sal = 1825.54;
-    $nome = "Leandro";
-    $casado = false;
+    $idade = 18; #Inteiro
+    $sal = 1825.54; #Real
+    $nome = "Leandro"; #String
+    $casado = false; #Lógico
 ?>
