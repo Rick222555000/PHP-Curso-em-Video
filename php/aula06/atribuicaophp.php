@@ -40,6 +40,30 @@
                 echo "Já o anterior era " . ($ano -= 2);
             ?>
         </div>
+
+        <div class="conteudo">
+            <h3>
+                Exercício 03
+            </h3>
+            <?php
+               $a = 30;
+               $b = 10;
+               $a = &$b;
+               $a += $b;
+               echo "$a e $b";
+            ?>
+        </div>
+
+        <div class="conteudo">
+            <h3>
+                Exercício 04
+            </h3>
+            <?php
+               $x = "oi";
+               $$x = "olá";
+               echo "$x, $oi!";
+            ?>
+        </div>
     </div>
     <footer class="rodape">
         Siga-em no <a href="https://github.com/Rick222555000" target="_blank">GitHub</a> | Rikelmy Magno de Oliveira.
