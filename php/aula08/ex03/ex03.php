@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título</title>
-    <link rel="stylesheet" href="../../style/template.css">
+    <link rel="stylesheet" href="../../../style/template.css">
 </head>
 <body>
     <header class="cabeca">
@@ -21,9 +21,9 @@
         </header>
         <section>
             <div class="conteudo">
-                
-                <!-- Área dedicada a edições quando forem necessárias-->
+                <?php
 
+                ?>
             </div>
         </section>
     </main>

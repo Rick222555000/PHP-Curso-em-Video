@@ -66,7 +66,7 @@
         </div>
     </div>
     <footer class="rodape">
-        Siga-em no <a href="https://github.com/Rick222555000" target="_blank">GitHub</a> | Rikelmy Magno de Oliveira.
+        Siga-me no <a href="https://github.com/Rick222555000" target="_blank">GitHub</a> | Rikelmy Magno de Oliveira.
     </footer>
 </body>
 </html>
