@@ -21,7 +21,24 @@
         </header>
         <section>
             <div class="conteudo">
-
+                <form action="ex03.php" method="POST">
+                    <label for="texto">Texto:</label>
+                    <input id="texto" type="text" name="tex" required>
+                    <br>
+                    <label for="itam">Tamanho:</label>
+                    <select name="tam" id="itam">
+                        <option value="8px">8</option>
+                        <option value="10px">10</option>
+                        <option value="14px" selected>14</option>
+                        <option value="20px">20</option>
+                        <option value="40px">40</option>
+                    </select>
+                    <br>
+                    <label for="icor">Cor:</label>
+                    <input id="icor" type="color" name="cor" required>
+                    <br>
+                    <input type="submit" value="Gerar">
+                </form>
             </div>
         </section>
     </main>
