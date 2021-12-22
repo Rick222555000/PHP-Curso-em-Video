@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título</title>
-    <link rel="stylesheet" href="../../style/template.css">
+    <link rel="stylesheet" href="../../../style/template.css">
 </head>
 <body>
     <header class="cabeca">
@@ -21,11 +21,12 @@
         </header>
         <section>
             <div class="conteudo">
-                <code>
-                    <?php
-                    
-                    ?>
-                </code>
+                <?php
+                    $numero = $_POST["valor"];
+                    $raiz = number_format(($numero**(1/2)), 2, ",", ".");
+                    echo "A raiz quadrada de $numero é $raiz.<br>";
+                ?>
+                <a href="formulario.html">&lt;Voltar</a>
             </div>
         </section>
     </main>
